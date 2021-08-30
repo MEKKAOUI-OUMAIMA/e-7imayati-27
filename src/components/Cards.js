@@ -17,7 +17,7 @@ function Cards() {
               <p className="hero-paraph1">
                 La pollution de l’air est un problème environnemental majeur,
                 qui a, en outre, un impact important sur le climat à l'échelle
-                globale. Selon les chiffres 2016 de la Banque mondiale : la
+                globale. Selon les chiffres 2016 de la Banque mondiale : lass
                 mauvaise qualité de l’air est le quatrième facteur de décès
                 prématuré sur Terre.
               </p>
@@ -32,17 +32,14 @@ function Cards() {
                 l’engagement du citoyen dans cet importante problématique aussi
                 bien au niveau sanitaire qu'environnemental.
               </p>
-            </Col>
+            </Col> 
             <Col lg={4}>
               <Image className="Action" src={Grp164} />
-              <h2 className="hero-title3">Action Inspirante</h2>
+              <h2 className="hero-title3">Sécurité au Maroc</h2>
               <p className="hero-paraph3">
-                E-7imayati vise à minimiser les risques néfastes de la pollution
-                sur la santé et aspire à motiver des actions réglementaires,
-                volontaires et incitatives pour maintenir une qualité durable de
-                l'air.
+              Entre coups et blessures, agressions, violence physique, vol et kidnapping même. Le harcèlement de rue est l’un des points les plus fréquemment soulignés lorsqu’il s’agit d’aborder cette question de société. 
               </p>
-            </Col>
+            </Col> 
           </ul>
         </div>
       </div>

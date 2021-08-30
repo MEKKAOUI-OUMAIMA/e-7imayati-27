@@ -29,18 +29,18 @@ const APropos = () => {
   const cards = [
     {
       logo: logo3,
-      title: "Action Inspirante",
-      body: "E-7imayati vise à minimiser les risques néfastes de la pollution sur la santé et aspire à motiver des actions réglementaires, volontaires et incitatives pour maintenir une qualité durable de l'air.",
+      title: "Sécurité au Maroc ",
+      body: "Entre coups et blessures, agressions, violence physique, vol et kidnapping même. Le harcèlement de rue est l’un des points les plus fréquemment soulignés lorsqu’il s’agit d’aborder cette question de société.",
     },
     {
       logo: logo2,
-      title: "Renforcer la sensibilisation",
-      body: "E-7imayati a pour but de sensibiliser la population générale aux dangers liés à la pollution de l'air, et de permettre l’engagement du citoyen dans cet importante problématique aussi bien au niveau sanitaire qu'environnemental.",
+      title: "Service de sécurité",
+      body: "E-7imayati offre un système capable d’informer les utilisateurs des activités suspectes dans leur entourage, le cas des enfants perdus.",
     },
     {
       logo: logo1,
-      title: "Qualité de l'air",
-      body: "La pollution de l’air est un problème environnemental majeur, qui a, en outre, un impact important sur le climat à l'échelle globale. Selon les chiffres 2016 de la Banque mondiale : la mauvaise qualité de l’air est le quatrième facteur de décès prématuré sur Terre.",
+      title: "Renforcer la sensibilisation ",
+      body: "E-7imayati a pour but de sensibiliser la population générale aux dangers liés à la pollution de l'air, et de permettre l’engagement du citoyen dans cet importante problématique aussi bien au niveau sanitaire qu'environnemental."
     },
   ];
 
@@ -63,9 +63,9 @@ const APropos = () => {
             <Card className="bg-transparent p-0 p-xxl-5 border-0 shadow-none w-100" >
               <Card.Img variant="top" src={c.logo} className="p-5" style={{ width: '280px', height: '280px' }} />
               <Card.Body>
-                <Card.Title className="h5 text-white" >{c.title}</Card.Title>
+                <Card.Title className="h5 " >{c.title}</Card.Title>
                 <hr className="propos"/>
-                <Card.Text className="p text-white" style={{textAlign:'justify'}} align="center">{c.body}</Card.Text>
+                <Card.Text className="p"  align="center">{c.body}</Card.Text>
               </Card.Body>
             </Card>
           </Col>

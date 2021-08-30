@@ -9,10 +9,7 @@ import {
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaGreaterThanEqual, FaLessThanEqual } from "react-icons/fa";
 import Footer from "../components/Footer";
-
-
 //import AirData from "./../data/airquality.json";
-
 import co2 from "./../assets/img/co2-symbol.svg";
 import airq from "./../assets/img/airq-symbol.svg";
 import humidity from "./../assets/img/humidity-symbol.svg";

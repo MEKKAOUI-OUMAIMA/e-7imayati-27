@@ -47,7 +47,7 @@ const history = useHistory();
 
           <div className="row" align="left">
             <span className="hero-subtitle1">
-            <p><b>Bienvenue,</b> user.firstName</p>
+            <p><b>Bienvenue,</b> </p>
             </span>
           </div>
 

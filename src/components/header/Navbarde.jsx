@@ -10,7 +10,10 @@ const Navbarde = () => {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
+  const handleLogout = () => {
+    localStorage.clear();
+    window.location.pathname ='/Login';
+  };
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -37,7 +40,7 @@ const Navbarde = () => {
         <BNavbar.Toggle aria-controls="navbar-nav" />
         <BNavbar.Collapse id="navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="/" onClick={closeMobileMenu}>
+            <Nav.Link href="/" onClick={handleLogout}>
             Se déconnecter <BiLogOut/>
             </Nav.Link>
           </Nav>

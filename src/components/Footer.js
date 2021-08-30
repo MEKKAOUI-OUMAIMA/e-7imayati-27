@@ -44,16 +44,36 @@ function Footer() {
           </ul>
         </Col>
         <Col md={2}>
-          <p>Social media</p>
+          <p>Informations</p>
           <ul className="list-unstyled">
             <li>
               <a href="#!" style={{ textDecoration: "none" }}>
-                Facebook
+                à propos
               </a>
             </li>
             <li>
               <a href="#!" style={{ textDecoration: "none" }}>
-                Instagram
+                Contactez-nous
+              </a>
+            </li>
+            <li>
+              <a href="#!" style={{ textDecoration: "none" }}>
+                Faq
+              </a>
+            </li>
+          </ul>
+        </Col>
+        <Col md={2}>
+          <p>Partenaires</p>
+          <ul className="list-unstyled">
+            <li>
+              <a href="#!" style={{ textDecoration: "none" }}>
+                Orange
+              </a>
+            </li>
+            <li>
+              <a href="#!" style={{ textDecoration: "none" }}>
+                
               </a>
             </li>
             <li>
@@ -73,27 +93,7 @@ function Footer() {
             </li>
             <li>
               <a href="#!" style={{ textDecoration: "none" }}>
-                Instagram
-              </a>
-            </li>
-            <li>
-              <a href="#!" style={{ textDecoration: "none" }}>
-                Linkedin
-              </a>
-            </li>
-          </ul>
-        </Col>
-        <Col md={2}>
-          <p>Social media</p>
-          <ul className="list-unstyled">
-            <li>
-              <a href="#!" style={{ textDecoration: "none" }}>
-                Facebook
-              </a>
-            </li>
-            <li>
-              <a href="#!" style={{ textDecoration: "none" }}>
-                Instagram
+                Instagrams
               </a>
             </li>
             <li>

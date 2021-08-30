@@ -3,9 +3,11 @@ import { Button } from "./Button";
 import { Container, Row, Image, Col } from "react-bootstrap";
 import logo from "../assets/img/transparent-logo-background.png";
 import map from "../assets/img/map.svg";
+import video from "../assets/img/Untitled design.mp4";
 import "./HeroSection.css"
 import styled from 'styled-components';
 import {Link, Redirect, useHistory} from "react-router-dom";
+import { videoOverlay } from "leaflet";
 
 
 function HeroSection() {
@@ -43,6 +45,7 @@ const history = useHistory();
       pollution atmosphérique au Maroc. 
       En parcourant plusieurs facteurs, informez-vous sur le niveau de pollution 
       et la qualité de l’air dans l’endroit que vous souhaitez visiter.
+      
     </p>
     </span>
 
@@ -57,7 +60,7 @@ const history = useHistory();
     </div>
     <div class="col-sm-7 col-sm-push-7" align="center"  >
       
-      <Image src={map} width="200%" height="200%" />
+      <Image src={map}  width="200%" height="200%" />
 
 
     </div>

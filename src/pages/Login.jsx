@@ -58,6 +58,7 @@ const Login = () => {
       email: values.email,
       password: values.password,
     };
+    
 
     const baseURL = "https://odc-smart-city.herokuapp.com";
     axios
@@ -76,11 +77,7 @@ const Login = () => {
       </header>
 
       <Container>
-        <Row>
-          <Col>
-          <pre>{JSON.stringify(request)}</pre>
-          </Col>
-        </Row>
+        
         <Row>
           <Col lg={4}>
             <Image src={LoginPicture} fluid className="w-100" />
@@ -160,11 +157,14 @@ const Login = () => {
               </nav>
               <div className="field row">
                 <p className="control col-6 mx-auto d-grid gap-2">
+              
                   <Button
                     variant="primary"
                     className="btn-block text-white"
                     type="submit"
                     disabled={values.validEmail !== true}
+                    onclick={onSubmit}
+                    href= "/Dashboard"
                   >
                     Se connecter
                   </Button>
@@ -176,7 +176,7 @@ const Login = () => {
               <p className="control col-6 mx-auto d-grid gap-2">
                 <Link
                   className="w-100 fw-bolder text-center td-none"
-                  to="/register"
+                  to="/Register"
                 >
                   Créer un compte <MdAccountCircle className="mx-1" />
                 </Link>

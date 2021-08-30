@@ -15,6 +15,7 @@ import { Home, Login, Register, NotFoundPage } from "./pages/index";
 import Map from "./pages/Map";
 import Navbarde from "./components/header/Navbarde";
 import Dashboard from "./pages/Dashboard";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 
 const App = () => {
